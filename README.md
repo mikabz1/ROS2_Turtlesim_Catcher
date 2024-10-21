@@ -1,5 +1,17 @@
-# ROS2_Turtlesim_Catcher
-first ros project , using turtlesim making a turtle catching other turtles.
+# ROS2 Turtlesim Catcher
+This is my first project in ROS2\
+The purpose of the project is to practice and implement basic topics in ROS2:\
+build packages using colcon.\
+-ros2 cli\
+-nodes\
+-topics\
+-subscribers\
+-Publishers\
+-client service\
+-service server\
+-Custom interfaces\
+-launch files
+
 
 
 
