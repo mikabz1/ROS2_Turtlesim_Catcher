@@ -9,11 +9,10 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <exec_depend>my_py_pkg</exec_depend>
-  <exec_depend>my_cpp_pkg</exec_depend>
   <exec_depend>my_robot_interfaces</exec_depend>
   <exec_depend>final_pro_udemy_py</exec_depend>
-
+  <exec_depend>cpp_final_pro_udemy</exec_depend>
+  
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
