@@ -12,7 +12,7 @@ build packages using colcon.\
 - service server.
 - Custom interfaces.
 - Parameters.
-- launch files.\
+- launch files.
 
 **I implemented the project in both CPP and Python.**
 
@@ -24,7 +24,8 @@ build packages using colcon.\
 Run turtlesim_node and set a turtle to be the central turtle (the robot).\
 Then at regular intervals create new turtles.\
 The goal of the main turtle (the robot) is to "catch" the other turtles.\
-Every time a turtle is caught it is deleted.
+Every time a turtle is caught it is deleted.\
+<ins>By default the robot will go to the turtle closest to it.</ins>
 
 **Realization:**\
 In order to realize all this I had to create 3 nodes:
@@ -48,6 +49,9 @@ In order to realize all this I had to create 3 nodes:
 - Turtle.msg and TurtleArray.msg to send the list of turtles (name + coordinates) on the /alive_turtles topic\
 - CatchTurtle.srv to send the name of the turtle which was caught. The client will be the turtle_controller node and the server will be the turtle_spawner node.
 
+<ins>Regarding the **parameters**:</ins>\
+You can choose the spawn speed and whether the robot will search for the turtle closest to it or if it will search in the order of their creation.\
+*all this from the launch files.
 
 
 
