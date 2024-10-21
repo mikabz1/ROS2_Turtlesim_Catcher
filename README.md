@@ -45,7 +45,7 @@ In order to realize all this I had to create 3 nodes:
 - Turtle.msg and TurtleArray.msg to send the list of turtles (name + coordinates) on the /alive_turtles topic\
 - CatchTurtle.srv to send the name of the turtle which was caught. The client will be the turtle_controller node and the server will be the turtle_spawner node.
 
-
+![](program run.giff)
 
 
 
