@@ -1,7 +1,7 @@
 # ROS2 Turtlesim Catcher
 ## introduction:
 This is my first project in ROS2!\
-The purpose of this project is to practice and implement basic topics in ROS2:\
+The purpose of this project is to practice and implement basic topics in ROS2:
 - Build packages using colcon.
 - Ros2 cli.
 - Nodes.
